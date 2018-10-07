@@ -1,0 +1,31 @@
+.block-disco {
+  position: relative;
+  border-bottom: 1px solid $c-wire-border;
+
+  img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    clear: both;
+  }
+
+  time {
+    padding: .6rem 1rem;
+
+    font-size: .7rem;
+
+    background: #cccccc;
+    border-radius: 1rem;
+
+    @media (min-width: $bp-mobile) {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}

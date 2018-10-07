@@ -1,0 +1,25 @@
+wp-content/
+
+# Node
+package-lock.json
+/node_modules
+npm-debug.log*
+.npm
+
+# Yarn
+.yarn-integrity
+yarn-debug.log*
+yarn-error.log*
+
+# PHPStorm
+.idea
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# macOS
+*.DS_Store

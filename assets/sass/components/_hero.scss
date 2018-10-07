@@ -1,0 +1,45 @@
+.hero {
+  position: relative;
+  min-height: 15rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  border: 1px solid $c-wire-border;
+  background: #000000;
+
+  h1 {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+
+    font-size: 5vmax;
+    line-height: 1;
+    color: #ffffff;
+  }
+
+  p {
+    position: relative;
+    z-index: 1;
+    position: absolute;
+    margin: 0;
+    bottom: 1rem;
+
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: .5;
+    object-fit: cover;
+    object-position: 50% 0;
+  }
+}

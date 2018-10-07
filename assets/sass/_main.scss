@@ -1,0 +1,26 @@
+body {
+  padding: 2rem;
+
+  font-family: $font-body;
+
+  a {
+    color: $c-link;
+  }
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 2rem;
+  padding: 1rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  border: 1px solid $c-wire-border;
+
+  .site-name {
+    flex: 1 0 auto;
+  }
+}
