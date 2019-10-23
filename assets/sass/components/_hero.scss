@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  min-height: 15rem;
+  min-height: 100vmin;
   padding: 1rem;
   margin-bottom: 2rem;
 
@@ -40,6 +40,6 @@
 
     opacity: .5;
     object-fit: cover;
-    object-position: 50% 0;
+    object-position: center;
   }
 }
