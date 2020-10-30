@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 var input = './assets/sass/*.scss';
-var output = './wp-content/themes/heaj';
+var output = './wp-content/themes/custom';
 
 var sassOptions = {
   errLogToConsole: true,
